@@ -1,16 +1,17 @@
 import { Outlet } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+//import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <>
-      <div className="mt-2 mb-2 mx-auto w-5/6">
-        <Navbar />
 
+    <div className="bg-custom-gradient min-h-screen p-2">
+      <div className="m-auto w-5/6">
+        <p>test</p>
         <Outlet />
       </div>
-    </>
+    </div>
+
   )
 }
 

@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to bottom right, #5B247A, #1BCEDF)',
+      },
       fontFamily: {
         h1:['Alegreya Sans SC', 'sans-serif'],
         p:['Alegreya', 'serif']
