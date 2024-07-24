@@ -1,0 +1,21 @@
+{
+    "pages": {
+        "aboutme": {
+            "title": "About Me", 
+            "content": "Hey im Dominik one of the first Platformdevelopment apprenticeships in Switzerland. I like to work on my homelab in my freetime.",
+            "content2": "In summer 2021 I started my apprenticeship at UBS AG and gained some skills in our digital world"
+        },
+        "myskills": {
+            "title": "My Skills",
+            "content": "I'm a software developer with experience in various programming languages.",
+            "skills": ["Python", "TypeScript", "React", "Node.js", "Cloud", "Unix"],
+            "skilllevel": ["beginner", "intermediate", "advanced" ]
+        },
+        "contact": {
+            "title": "Contact",
+            "content": "Feel free to reach out to me.",
+            "content2": "dominik@urbanetz.li"
+        }
+    }
+    
+}

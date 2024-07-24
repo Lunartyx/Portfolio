@@ -8,6 +8,7 @@ import App from './App.tsx';
 import Home from './pages/Home.tsx';
 import ErrorPage from "./pages/error-page.tsx";
 import Contact from './pages/Contact.tsx'
+import Test from './pages/Test.tsx'
 
 const router = createBrowserRouter([
   {
@@ -21,8 +22,16 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
+        path: "/home",
+        element: <Home />
+      },
+      {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/test",
+        element: <Test />,
       },
     ],
   },

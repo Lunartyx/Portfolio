@@ -6,12 +6,16 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize: {
+        h1: '24px',
+        p: '12px',
+      },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to bottom right, #5B247A, #1BCEDF)',
       },
       fontFamily: {
-        h1:['Alegreya Sans SC', 'sans-serif'],
-        p:['Alegreya', 'serif']
+        h1: ['Alegreya Sans SC', 'sans-serif'],
+        p: ['Alegreya', 'serif'],
       },
       gridTemplateColumns: {
         '70/30': '70% 28%',
