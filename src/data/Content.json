@@ -8,14 +8,35 @@
         "myskills": {
             "title": "My Skills",
             "content": "Here are some of my most favourite skills listed. To see what experience level im on hover over the icons.",
-            "skills": ["Python", "TypeScript", "React", "Node.js", "Cloud", "Unix"],
-            "skilllevel": ["beginner", "intermediate", "advanced" ]
+            "skills": {
+                "1": "Linux",
+                "2": "Networking",
+                "3": "AWS",
+                "4": "Azure",
+                "5": "JavaScript",
+                "6": "TypeScript",
+                "7": "NodeJS",
+                "8": "React",
+                "9": "Python",
+                "10": "Git",
+                "11": "Pentesting",
+                "12": "MusicProducing"
+            },
+            "skilllevels": {
+                "1": "Beginner",
+                "2": "Intermediate",
+                "3": "Advanced",
+                "4": "Professional"
+            }
         },
         "contact": {
             "title": "Contact",
             "content": "Feel free to reach out to me.",
-            "content2": "dominik@urbanetz.li"
+            "mail": "dominik@urbanetz.li",
+            "linkedin": "Dominik Urbanetz",
+            "discord": "lunartyx",
+            "instagram": "domi._.172"
+            
         }
     }
-    
 }
