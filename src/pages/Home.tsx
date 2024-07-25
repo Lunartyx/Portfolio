@@ -9,7 +9,10 @@ const psize2 = "text-2xl"
 const Home = () => {
 
     const onClickSkills = () => {
-        window.location.href = "#skills";
+        const skillsSection = document.querySelector("#skills");
+        if (skillsSection) {
+            skillsSection.scrollIntoView({ behavior: 'smooth' });
+        }
     }
 
 
@@ -49,9 +52,11 @@ const Home = () => {
                             <img src={portrait} className='p-8'></img>
                         </div>
                         <div className="basis-2/3 p-20">
-                            <a href='#skills' aria-hidden='true'>
-                                <h1 className="text-6xl">{pagedata.pages.myskills.title}</h1>
-                            </a>
+
+                            <h1 id="skills" className="text-6xl">{pagedata.pages.myskills.title}
+                                <a href='#skills' aria-hidden='true'></a>
+                            </h1>
+
                             <br />
                             <p className={psize}>{pagedata.pages.myskills.content}</p>
                         </div>
