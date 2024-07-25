@@ -2,6 +2,7 @@
 import portrait from '../assets/OIG4.jpeg'
 import pagedata from '../data/Content.json'
 import arrow_down from '../assets/icons/arrow_scroll_icon.png'
+import MySkills from '../modules/MySkills'
 
 const psize = "text-xl"
 const psize2 = "text-2xl"
@@ -46,19 +47,18 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section className="snap-start h-screen flex items-center justify-center bg-green-500">
+                <section id="skills" className="snap-start h-screen flex items-center justify-center">
                     <div className="flex flex-auto">
-                        <div className="basis-1/3">
-                            <img src={portrait} className='p-8'></img>
-                        </div>
-                        <div className="basis-2/3 p-20">
 
-                            <h1 id="skills" className="text-6xl">{pagedata.pages.myskills.title}
-                                <a href='#skills' aria-hidden='true'></a>
-                            </h1>
+                        <div className="w-full p-20 shadow-lg m-8 rounded-3xl">
 
+                            <h1 className="text-6xl">{pagedata.pages.myskills.title}</h1>
                             <br />
                             <p className={psize}>{pagedata.pages.myskills.content}</p>
+                            <br className='mb-8' />
+
+                            <MySkills />
+
                         </div>
                     </div>
                 </section>

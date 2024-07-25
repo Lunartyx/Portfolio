@@ -7,7 +7,7 @@
         },
         "myskills": {
             "title": "My Skills",
-            "content": "I'm a software developer with experience in various programming languages.",
+            "content": "Here are some of my most favourite skills listed. To see what experience level im on hover over the icons.",
             "skills": ["Python", "TypeScript", "React", "Node.js", "Cloud", "Unix"],
             "skilllevel": ["beginner", "intermediate", "advanced" ]
         },
