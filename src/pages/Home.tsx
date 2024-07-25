@@ -1,23 +1,45 @@
 
 import portrait from '../assets/OIG4.jpeg'
 import pagedata from '../data/Content.json'
+import arrow_down from '../assets/icons/arrow_scroll_icon.png'
 
-const psize = "text-2xl"
+const psize = "text-xl"
+const psize2 = "text-2xl"
 
 const Home = () => {
+
+    const onClickSkills = () => {
+        window.location.href = "#skills";
+    }
+
+
     return (
         <>
             <div className="snap-y snap-mandatory h-screen overflow-y-scroll hide-scrollbar">
                 <section className="snap-start h-screen flex items-center justify-center">
                     <div className="flex flex-auto">
                         <div className="basis-1/3">
-                            <img src={portrait} className='p-8 rounded-full shadow-lg'></img>
+                            <div className='rounded-full shadow-lg p-8'>
+                                <img src={portrait} className='rounded-full shadow-lg transform transition duration-500 hover:scale-95' />
+                            </div>
                         </div>
-                        <div className="basis-2/3 p-20 shadow-lg m-8 rounded-3xl hover:shadow-2xl">
+                        <div className="basis-2/3 p-20 shadow-lg m-8 rounded-3xl">
+
                             <h1 className="text-6xl">{pagedata.pages.aboutme.title}</h1>
                             <br />
                             <p className={psize}>{pagedata.pages.aboutme.content}</p>
                             <p className={psize}>{pagedata.pages.aboutme.content2}</p>
+                            <br />
+                            <div className='flex justify-center'>
+                                <div>
+                                    <p className={psize2}>Learn about my skills</p>
+                                </div>
+                            </div>
+                            <div className='flex justify-center'>
+                                <button onClick={onClickSkills} className='m-4 transform transition duration-500 hover:scale-125 size-16'>
+                                    <img src={arrow_down} alt="downarrow" />
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -27,7 +49,9 @@ const Home = () => {
                             <img src={portrait} className='p-8'></img>
                         </div>
                         <div className="basis-2/3 p-20">
-                            <h1 className="text-6xl">{pagedata.pages.myskills.title}</h1>
+                            <a href='#skills' aria-hidden='true'>
+                                <h1 className="text-6xl">{pagedata.pages.myskills.title}</h1>
+                            </a>
                             <br />
                             <p className={psize}>{pagedata.pages.myskills.content}</p>
                         </div>
