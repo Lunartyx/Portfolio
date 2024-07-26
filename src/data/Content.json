@@ -32,11 +32,22 @@
         "contact": {
             "title": "Contact",
             "content": "Feel free to reach out to me.",
-            "mail": "dominik@urbanetz.li",
-            "linkedin": "Dominik Urbanetz",
-            "discord": "lunartyx",
-            "instagram": "domi._.172"
-            
+            "1": {
+                "name": "mail",
+                "content": "dominik@urbanetz.li"
+            },
+            "2": {
+                "name": "LinkedIn",
+                "content": "Dominik Urbanetz"
+            },
+            "3": {
+                "name": "Discord",
+                "content": "lunartyx"
+            },
+            "4": {
+                "name": "Instagram",
+                "content": "domi._.172"
+            }
         }
     }
 }

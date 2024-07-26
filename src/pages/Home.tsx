@@ -3,6 +3,7 @@ import portrait from '../assets/OIG4.jpeg'
 import pagedata from '../data/Content.json'
 import arrow_down from '../assets/icons/arrow_scroll_icon.png'
 import MySkills from '../modules/MySkills'
+import ContactMe from '../modules/ContactMe'
 
 const psize = "text-xl"
 const psize2 = "text-2xl"
@@ -71,11 +72,7 @@ const Home = () => {
                             <p className={psize}>{pagedata.pages.aboutme.content}</p>
                             <p className={psize}>{pagedata.pages.aboutme.content2}</p>
                             <br />
-                            <div className='flex justify-center'>
-                                <div>
-                                    <p className={psize2}>Learn about my skills</p>
-                                </div>
-                            </div>
+                            <ContactMe />
                         </div>
                     </div>
                 </section>
