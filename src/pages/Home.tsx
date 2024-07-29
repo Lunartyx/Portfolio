@@ -23,9 +23,6 @@ const Home = () => {
         }
     };
 
-
-
-
     return (
         <>
             <div className='bg-custom-gradient'>
@@ -74,10 +71,9 @@ const Home = () => {
                         <section id="contact" className="snap-start h-screen flex items-center justify-center">
                             <div className="flex flex-auto">
                                 <div className="w-full p-20 shadow-lg m-8 rounded-3xl">
-                                    <h1 className="text-6xl">{pagedata.pages.aboutme.title}</h1>
+                                    <h1 className="text-6xl">{pagedata.pages.contact.title}</h1>
                                     <br />
-                                    <p className={psize}>{pagedata.pages.aboutme.content}</p>
-                                    <p className={psize}>{pagedata.pages.aboutme.content2}</p>
+                                    <p className={psize}>{pagedata.pages.contact.content}</p>
                                     <br className='mb-8' />
                                     <ContactMe />
                                 </div>

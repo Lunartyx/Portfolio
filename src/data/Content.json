@@ -2,8 +2,8 @@
     "pages": {
         "aboutme": {
             "title": "About Me", 
-            "content": "Hey im Dominik one of the first Platformdevelopment apprenticeships in Switzerland. I like to work on my homelab in my freetime.",
-            "content2": "In summer 2021 I started my apprenticeship at UBS AG and gained some skills in our digital world"
+            "content": "Hey im Dominik one of the first Platformengineer apprenticeships in Switzerland. I like to work on my homelab in my freetime. In summer 2021 I started my apprenticeship at UBS AG and gained some skills in our digital world",
+            "content2": "If you are interested in some things i do, just check my Repositories on my GitHub. If you dare to challenge yourself try to clone the Repository and rebuild my Project. If you find undocumented errors feel free to open a Issue."
         },
         "myskills": {
             "title": "My Skills",
