@@ -2,24 +2,35 @@ import SkillIcon from '../components/SkillIcon';
 
 import skilldata from '../data/Content.json'
 
-const skilllevels = skilldata.pages.myskills.skilllevels
-const skills = skilldata.pages.myskills.skills
+const contact_info = skilldata.pages.contact
+
 
 // Icon imports
-import mail_icon from '../assets/icons/mail_icon.png';
+import mail_icon from '../assets/icons/mail_icon.png'
 import linkedin_icon from '../assets/icons/linkedin_icon.png'
 import discord_icon from '../assets/icons/discord_icon.png'
 import instagram_icon from '../assets/icons/instagram_icon.png'
-
+import github_icon from '../assets/icons/github_icon.png'
 
 const MySkills = () => {
     return (
         <>
-            <div className="grid grid-cols-4 gap-4">
-                <SkillIcon icon={mail_icon} name={skills[1]} knowledge={skilllevels[3]} />
-                <SkillIcon icon={linkedin_icon} name={skills[2]} knowledge={skilllevels[4]} />
-                <SkillIcon icon={discord_icon} name={skills[3]} knowledge={skilllevels[1]} />
-                <SkillIcon icon={instagram_icon} name={skills[4]} knowledge={skilllevels[1]} />
+            <div className="grid grid-cols-5 gap-3">
+                <a href={contact_info[1].link}>
+                    <SkillIcon icon={mail_icon} name={contact_info[1].name} knowledge={contact_info[1].content} />
+                </a>
+                <a href={contact_info[2].link}>
+                    <SkillIcon icon={linkedin_icon} name={contact_info[2].name} knowledge={contact_info[2].content} />
+                </a>
+                <a href={contact_info[3].link}>
+                    <SkillIcon icon={discord_icon} name={contact_info[3].name} knowledge={contact_info[3].content} />
+                </a>
+                <a href={contact_info[4].link}>
+                    <SkillIcon icon={instagram_icon} name={contact_info[4].name} knowledge={contact_info[4].content} />
+                </a>
+                <a href={contact_info[5].link}>
+                    <SkillIcon icon={github_icon} name={contact_info[5].name} knowledge={contact_info[5].content} />
+                </a>
             </div>
         </>
     );

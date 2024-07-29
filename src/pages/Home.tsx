@@ -72,6 +72,7 @@ const Home = () => {
                             <p className={psize}>{pagedata.pages.aboutme.content}</p>
                             <p className={psize}>{pagedata.pages.aboutme.content2}</p>
                             <br />
+                            <br />
                             <ContactMe />
                         </div>
                     </div>

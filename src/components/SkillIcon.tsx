@@ -13,16 +13,17 @@ const SkillIcon: React.FC<SkillIconProps> = ({ icon, name, knowledge }) => {
                 <div className='m-4 size-16'>
                     <img src={icon} alt="icon" />
                 </div>
-                <span className="text-lg absolute opacity-0 group-hover:opacity-100 group-hover:-translate-y-10 duration-700">
+
+                <h1 className="text-lg absolute text-center opacity-0 group-hover:opacity-100 group-hover:-translate-y-10 duration-700 ">
                     {knowledge}
-                </span>
+                </h1>
             </div>
             <div className="mt-2">
                 <p className="text-lg">
                     {name}
                 </p>
             </div>
-        </section>
+        </section >
     );
 };
 

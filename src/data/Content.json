@@ -34,19 +34,28 @@
             "content": "Feel free to reach out to me.",
             "1": {
                 "name": "mail",
-                "content": "dominik@urbanetz.li"
+                "content": "dominik@urbanetz.li",
+                "link": "mailto:dominik@urbanetz.li"
             },
             "2": {
                 "name": "LinkedIn",
-                "content": "Dominik Urbanetz"
+                "content": "dominik-urbanetz",
+                "link": "https://www.linkedin.com/in/dominik-urbanetz/"
             },
             "3": {
                 "name": "Discord",
-                "content": "lunartyx"
+                "content": "lunartyx",
+                "link": "https://discord.com/users/553297899236503552"
             },
             "4": {
                 "name": "Instagram",
-                "content": "domi._.172"
+                "content": "domi._.172",
+                "link": "https://www.instagram.com/domi._.172/"
+            },
+            "5": {
+                "name": "GitHub",
+                "content": "Lunartyx",
+                "link": "https://github.com/Lunartyx/"
             }
         }
     }
