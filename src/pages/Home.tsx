@@ -43,6 +43,7 @@ const Home = () => {
                                     <br />
                                     <p className={psize}>{pagedata.pages.aboutme.content}</p>
                                     <p className={psize}>{pagedata.pages.aboutme.content2}</p>
+                                    <p className={psize}>{pagedata.pages.aboutme.content3}</p>
                                     <br />
                                     <div className='flex justify-center'>
                                         <div>
