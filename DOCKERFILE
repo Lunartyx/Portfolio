@@ -1,0 +1,17 @@
+# Base Node.js Image
+FROM node:20
+
+# Arbeitsverzeichnis
+WORKDIR /app
+
+# Projekt klonen (ersetze den Link durch deinen echten GitHub-Link)
+RUN git clone https://github.com/Lunartyx/Portfolio.git .
+
+# Abhängigkeiten installieren
+RUN npm install
+
+# Port öffnen
+EXPOSE 17206
+
+# App starten
+CMD ["npm", "run", "dev"]
