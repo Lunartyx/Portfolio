@@ -1,4 +1,4 @@
-import portrait from '../assets/OIG4.jpeg';
+import portrait from '../assets/PFP.png';
 import pagedata from '../data/Content.json';
 import arrow_down from '../assets/icons/arrow_scroll_icon.png';
 import MySkills from '../modules/MySkills';
@@ -33,7 +33,7 @@ const Home = () => {
                                 <div className="basis-1/3">
                                     <div className='rounded-full shadow-lg p-8'>
                                         <button onClick={onClickContact}>
-                                            <img src={portrait} className='rounded-full shadow-lg transform transition duration-500 hover:scale-95' />
+                                            <img src={portrait} className='rounded-full shadow-2xl transform transition duration-500 hover:scale-95' />
                                         </button>
                                     </div>
                                 </div>
